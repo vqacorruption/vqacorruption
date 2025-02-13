@@ -41,7 +41,7 @@ In future, we will release the full datasets processed.
 | DocOwl2           | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/mPLUG/DocOwl2) |
 | UDOP              | VLM  | 742M | MIT          |  [link](https://huggingface.co/microsoft/udop-large) |
 | LayoutLMv3        | VLM  | 125M | Llama-2      |  [link](https://huggingface.co/rubentito/layoutlmv3-base-mpdocvqa) |
-| BLIP              | VLM  | 385M | bsd-3-clause |  [link](https://huggingface.co/Salesforce/blip-vqa-base) |
+| BLIP              | VLM  | 385M | BSD-3-Clause |  [link](https://huggingface.co/Salesforce/blip-vqa-base) |
 
 
 Gemini 2.0 Flash has been used as judge on all verification steps
