@@ -13,9 +13,9 @@ We evaluate their performance degradation when handling various levels of questi
 |                   | MPDocVQA | DUDE |
 |-------------------|:--------:|:----:|
 | Full              | [link*](https://rrc.cvc.uab.es/?ch=17&com=downloads) | [link*](https://rrc.cvc.uab.es/?ch=23&com=downloads) |
-| Reduced           | [link]() | [link]() |
-| Corrupted         | [link]() | [link]() |
-| Verified          | [link]() | [link]() |
+| Reduced           | [link](https://drive.google.com/drive/folders/1-SZzvuMJarRDi4rTz6svkVP8MsWTCejO?usp=drive_link) | [link](https://drive.google.com/drive/folders/1URFqchC37AoGMkl0HQP22oAeqM-lV2ns?usp=drive_link) |
+| Corrupted         | [link](https://drive.google.com/drive/folders/1bMjgHAiBJTwDAZu589abNCaMTWKIOXtq?usp=drive_link) | [link](https://drive.google.com/drive/folders/11Yd9l1J-f0FB-E8S5ZTPrSse3Vjie_wl?usp=drive_link) |
+| Verified          | [link](https://drive.google.com/drive/folders/1fcwycWWO2D9hRjrididVcSXoy6GyPac6?usp=drive_link) | [link](https://drive.google.com/drive/folders/12ltYWllJAoEIkJlbZegnWrrYSul9K6Oy?usp=drive_link) |
 
 \* Link to original dataset repository
 
