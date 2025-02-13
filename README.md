@@ -10,8 +10,8 @@ We evaluate their performance degradation when handling various levels of questi
 
 ## Datasets
 ### MPDocVQA
-|                   | Link |
-|-------------------|------|
+|                   | MPDocVQA | DUDE |
+|-------------------|----------|------|
 | Full              | [link](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) |
 | Reduced           | [link](https://huggingface.co/stabilityai/stablelm-3b-4e1t) |
 | Corrupted         | [link](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base) |
