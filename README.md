@@ -1,4 +1,5 @@
 <div align="center">
+  
 ## Benchmarking Visual LLMs Robustness to Corrupted Questions in Multi-Page Document Visual Question Answering
 
 ## Under Review at ACL 2025
