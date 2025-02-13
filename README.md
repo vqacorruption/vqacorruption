@@ -17,6 +17,14 @@ We evaluate their performance degradation when handling various levels of questi
 | Corrupted         | [link]() | [link]() |
 | Verified          | [link]() | [link]() |
 
+The "Reduced" row contains:
+- the subsets of questions taken from the full datasets,
+- the OCR and Layout analysis
+- the dataset augmented
+The "Corrupted" row contains corrupted questions
+The "Verified" row contain the corrupted question verified by the Judge model.
+In future, we will release the full datasets processed.
+
 
 ## Models
 |                   | Type | Size | License      | Link |
