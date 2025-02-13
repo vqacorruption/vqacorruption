@@ -1,0 +1,80 @@
+{
+    "open_source_models": {
+        "llm": {
+            "qwen": {
+                "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+                "max_tokens": 1024,
+                "min_pixels": 200704,
+                "max_pixels": 1003520,
+                "use_flash_attention": false,
+                "name": "Qwen",
+                "batch_size": 2
+            },
+            "docowl": {
+                "model_name": "mPLUG/DocOwl2",
+                "crop_anchors": "grid_12",
+                "input_size": 504,
+                "max_tokens": 1024,
+                "name": "DocOwl",
+                "batch_size": 3
+            },
+            "ovis": {
+                "model_name": "AIDC-AI/Ovis1.6-Gemma2-9B",
+                "max_length": 8192,
+                "max_tokens": 1024,
+                "name": "Ovis",
+                "batch_size": 2
+            },
+            "internvl": {
+                "model_name": "OpenGVLab/InternVL2_5-8B",
+                "max_tokens": 1024,
+                "name": "InternVL",
+                "batch_size": 3
+            },
+            "molmo": {
+                "enabled": true,
+                "name": "molmo",
+                "model_name": "allenai/Molmo-7B-D-0924",
+                "batch_size": 1,
+                "max_tokens": 1024
+            },
+            "phi": {
+                "enabled": true,
+                "name": "phi",
+                "model_name": "microsoft/Phi-3.5-vision-instruct",
+                "batch_size": 1,
+                "max_tokens": 1024
+            }
+        },
+        "lm": {
+            "blip": {
+                "enabled": true,
+                "name": "Blip",
+                "model_name": "Salesforce/blip-vqa-base",
+                "batch_size": 1,
+                "max_tokens": 1024
+            },
+            "udop": {
+                "enabled": true,
+                "name": "Udop",
+                "model_name": "microsoft/udop-large",
+                "batch_size": 1,
+                "max_tokens": 1024
+            },
+            "layoutlmv3": {
+                "enabled": true,
+                "name": "LayoutLMv3",
+                "model_name": "rubentito/layoutlmv3-base-mpdocvqa",
+                "batch_size": 1,
+                "max_tokens": 1024
+            }
+        }
+    },
+    "input_file": "/corruption-scripts/results/MPDocVQA_unanswerable_corrupted_questions_verified_just_false.json",
+    "output_file": "vqa_analysis_results.json",
+    "sampling_percentage": 100,
+    "ocr_enabled": false,
+    "unable_to_respond_aware": false,
+    "dataset": "MPDocVQA",
+    "images_base_path": "/data/qas/images"
+}
