@@ -11,16 +11,16 @@ We evaluate their performance degradation when handling various levels of questi
 ## Datasets
 
 |                   | MPDocVQA | DUDE |
-|-------------------|----------|------|
-| Full              | [link](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) |
-| Reduced           | [link](https://huggingface.co/stabilityai/stablelm-3b-4e1t) |
-| Corrupted         | [link](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base) |
-| Verified          | [link](https://huggingface.co/tiiuae/falcon-7b) |
+|-------------------|:--------:|:----:|
+| Full              | [link](https://rrc.cvc.uab.es/?ch=17&com=downloads) | [link](https://rrc.cvc.uab.es/?ch=23&com=introduction) |
+| Reduced           | [link]() | [link]() |
+| Corrupted         | [link]() | [link]() |
+| Verified          | [link]() | [link]() |
 
 
 ## Models
 |                   | Type | Size | License      | Link |
-|-------------------|------|------|--------------|------|
+|-------------------|:----:|:----:|:------------:|:----:|
 | QWEN 2.5-VL       | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) |
 | InternVL 2.5      | VLLM | 8B   | MIT          |  [link](https://huggingface.co/OpenGVLab/InternVL2_5-8B) |
 | Phi 3.5 Vision    | VLLM | 4B   | MIT          |  [link](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) |
