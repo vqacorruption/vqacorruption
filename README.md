@@ -47,7 +47,7 @@ Gemini 2.0 Flash has been used as judge on all verification steps
 
 [TODO]
 
-To run the experiments, install the dependencies in the `requirements.txt` file.
+To run the experiments, install the dependencies in the `requirements.txt` file.\\
 Currently, the experiments have been executed with `transformers==4.49.0.dev0`. Due to compatibility issue, we suggest to downgrade to `transformers==4.48.2` when testing Phi 3.5
 
 ## License
