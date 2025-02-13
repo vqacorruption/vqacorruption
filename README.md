@@ -21,7 +21,8 @@ The "Reduced" row contains:
 - the subsets of questions taken from the full datasets,
 - the OCR and Layout analysis
 - the dataset augmented
-The "Corrupted" row contains corrupted questions
+  
+The "Corrupted" row contains corrupted questions.
 The "Verified" row contain the corrupted question verified by the Judge model.
 In future, we will release the full datasets processed.
 
@@ -42,6 +43,12 @@ In future, we will release the full datasets processed.
 
 Gemini 2.0 Flash has been used as judge on all verification steps
 
+## Execution
+
+[TODO]
+
+To run the experiments, install the dependencies in the `requirements.txt` file.
+Currently, the experiments have been executed with 
 
 ## License
 This project is licensed under the **Apache 2.0 license**. See [LICENSE](LICENSE) for more information.
