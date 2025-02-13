@@ -12,10 +12,12 @@ We evaluate their performance degradation when handling various levels of questi
 
 |                   | MPDocVQA | DUDE |
 |-------------------|:--------:|:----:|
-| Full              | [link](https://rrc.cvc.uab.es/?ch=17&com=downloads) | [link](https://rrc.cvc.uab.es/?ch=23&com=introduction) |
+| Full              | [link*](https://rrc.cvc.uab.es/?ch=17&com=downloads) | [link*](https://rrc.cvc.uab.es/?ch=23&com=downloads) |
 | Reduced           | [link]() | [link]() |
 | Corrupted         | [link]() | [link]() |
 | Verified          | [link]() | [link]() |
+
+* Link to original dataset repository
 
 The "Reduced" row contains:
 - the subsets of questions taken from the full datasets,
@@ -23,7 +25,8 @@ The "Reduced" row contains:
 - the dataset augmented
   
 The "Corrupted" row contains corrupted questions.<br />
-The "Verified" row contain the corrupted question verified by the Judge model.<br />
+The "Verified" row contain the corrupted question verified by the Judge model.
+
 In future, we will release the full datasets processed.
 
 
