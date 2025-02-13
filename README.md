@@ -44,7 +44,7 @@ In future, we will release the full datasets processed.
 Gemini 2.0 Flash has been used as judge on all verification steps
 
 After each model is tested, it is postprocess to standardize results.
-The final output file has the same verified dataset elements extended with models answers.<br />
+The final output file has the same verified dataset elements extended with models answers.
 In detail it has a list with:
 -  document pages taken in the window to provide an answer
 -  model answer
