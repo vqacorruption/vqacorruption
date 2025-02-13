@@ -17,7 +17,7 @@ We evaluate their performance degradation when handling various levels of questi
 | Corrupted         | [link]() | [link]() |
 | Verified          | [link]() | [link]() |
 
-* Link to original dataset repository
+\* Link to original dataset repository
 
 The "Reduced" row contains:
 - the subsets of questions taken from the full datasets,
