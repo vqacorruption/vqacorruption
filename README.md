@@ -65,6 +65,9 @@ An example on how to run each step is provided in the notebook [example.ipynb](e
 ## License
 This project is licensed under the **CC BY-NC 4.0**. See [LICENSE](LICENSE) for more information.
 
+## Contact
+If you are interested in this work or have questions about the code, the paper or the dataset, please contact us by email at vqacorruption@gmail.com.
+
 ## Citation
 
 If you find this project useful, please consider citing:
