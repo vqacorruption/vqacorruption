@@ -42,7 +42,7 @@ We also provide the zip files of with all datasets at this links: [MPDocVQA.zip]
 | Ovis              | VLLM | 10B  | Apache 2.0   |  [link](https://huggingface.co/AIDC-AI/Ovis1.6-Gemma2-9B) |
 | DocOwl2           | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/mPLUG/DocOwl2) |
 | UDOP              | VLM  | 742M | MIT          |  [link](https://huggingface.co/microsoft/udop-large) |
-| LayoutLMv3        | VLM  | 125M | Llama-2      |  [link](https://huggingface.co/rubentito/layoutlmv3-base-mpdocvqa) |
+| LayoutLMv3        | VLM  | 125M | CC-BY-NC-SA-4.0      |  [link](https://huggingface.co/rubentito/layoutlmv3-base-mpdocvqa) |
 | BLIP              | VLM  | 385M | BSD-3-Clause |  [link](https://huggingface.co/Salesforce/blip-vqa-base) |
 
 
