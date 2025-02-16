@@ -9,8 +9,8 @@ from pathlib import Path
 from collections import Counter
 import math
 import re  # Added for window size extraction
-# from anls_star import anls_score
-# from gliner import GLiNER
+from anls_star import anls_score
+from gliner import GLiNER
 import pandas as pd
 import os
 import torch
@@ -3360,7 +3360,7 @@ class VQAAnalyzer:
 def generate_analysis_report(dataset, images_path):
     # Group results by window size (e.g., "w=1" and "w=2")
     print("Initializing Entity Verifier...")
-    entity_verifier = None #EntityIdentifier(ENTITY_TYPES)
+    entity_verifier = EntityIdentifier(ENTITY_TYPES)
     print("Entity Verifier initialized")
 
     report_data_by_window = {}
