@@ -4,9 +4,7 @@
 
 ### Under Review at [ACL RR 2025](https://2025.aclweb.org)
 </div>
-This study investigates the robustness of Multimodal Models (VLLMs and LLMs) to corrupted questions in multi-page document Visual Question Answering (DocVQA), aiming to create a comprehensive benchmark for evaluating model resilience across different types of input perturbations.
-We evaluate their performance degradation when handling various levels of question corruption,
-[TODO]
+A comprehensive evaluation system for testing Visual Large Language Models' (VLLMs) robustness against corrupted questions in document understanding tasks. The framework introduces systematic corruptions at NLP, document element, and layout levels, while providing tools for corruption generation, unanswerability verification, and performance assessment. Validated through experiments on 2 benchmarks with 11 VLLMs/LMs, it offers specialized metrics for measuring No Answer precision, document element impact, and answer correlations. The project specifically addresses challenges in multi-page document processing, including handling of multimodal elements and varied layouts.
 
 ## Datasets
 
