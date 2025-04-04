@@ -1,6 +1,6 @@
 <div align="center">
   
-## Evaluating Visual LLMs Resilience to\\ Unanswerable Questions on Visually Rich Documents
+## Evaluating Visual LLMs Resilience to Unanswerable Questions on Visually Rich Documents
 
 ### Under Review
 </div>
