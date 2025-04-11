@@ -1,2 +1,2 @@
 We also provide the code to generate plots and tables.
-Place paper_plot.ipynb, plots.ipynb and tables.ipynb inside the generate dataset folder or change the results path inside the file to run them from the current location.
+Place related xxxxx.ipynb files inside the generate dataset folder or change the results path inside the file to run them from the current location.
