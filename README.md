@@ -33,12 +33,15 @@ We also provide the zip files of with all datasets at this links: [MPDocVQA.zip]
 ## Models
 |                   | Type | Size | License      | Link |
 |-------------------|:----:|:----:|:------------:|:----:|
-| QWEN 2.5-VL       | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) |
+| QWEN 2.5-VL       | VLLM | 7B   | Apache 2.0   |  [link](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) |
 | InternVL 2.5      | VLLM | 8B   | MIT          |  [link](https://huggingface.co/OpenGVLab/InternVL2_5-8B) |
 | Phi 3.5 Vision    | VLLM | 4B   | MIT          |  [link](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) |
-| Molmo             | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/allenai/Molmo-7B-D-0924) |
-| Ovis              | VLLM | 10B  | Apache 2.0   |  [link](https://huggingface.co/AIDC-AI/Ovis1.6-Gemma2-9B) |
+| Molmo             | VLLM | 7B   | Apache 2.0   |  [link](https://huggingface.co/allenai/Molmo-7B-D-0924) |
+| Ovis              | VLLM | 9B   | Apache 2.0   |  [link](https://huggingface.co/AIDC-AI/Ovis1.6-Gemma2-9B) |
 | DocOwl2           | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/mPLUG/DocOwl2) |
+| Gemma 3           | VLLM | 27B  | Gemma        |  [link](https://huggingface.co/google/gemma-3-27b-it) |
+| Llama 3.2         | VLLM | 11B   | Llama3.2   |  [link](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) |
+| Llava 1.6         | VLLM | 34B   | Apache 2.0   |  [link](https://huggingface.co/liuhaotian/llava-v1.6-34b) |
 | UDOP              | VLM  | 742M | MIT          |  [link](https://huggingface.co/microsoft/udop-large) |
 | LayoutLMv3        | VLM  | 125M | CC-BY-NC-SA-4.0      |  [link](https://huggingface.co/rubentito/layoutlmv3-base-mpdocvqa) |
 | BLIP              | VLM  | 385M | BSD-3-Clause |  [link](https://huggingface.co/Salesforce/blip-vqa-base) |
@@ -56,9 +59,13 @@ In detail it has a list with:
 ## Execution
 
 To run the experiments, install the dependencies in the `requirements.txt` file.<br />
-Currently, the experiments have been executed with `transformers==4.49.0.dev0`. Due to compatibility issue, we suggest to downgrade to `transformers==4.48.2` when testing Phi 3.5.
+Currently, the experiments have been executed with `transformers==4.49.0.dev0`. Due to compatibility issue, we suggest to downgrade to `transformers==4.48.2` when testing Phi 3.5.<br />
+For Llama3.2 and Llava1.6 we deploy the models using the [Ollama](https://ollama.com/) library
 
 An example on how to run each step is provided in the notebook [example.ipynb](example.ipynb)
+
+## Future Works
+We plan to test more models with different sizes, both open source and private.
 
 ## License
 This project is licensed under the **CC BY-NC 4.0**. See [LICENSE](LICENSE) for more information.
