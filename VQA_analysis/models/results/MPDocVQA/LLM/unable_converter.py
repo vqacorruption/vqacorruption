@@ -5,10 +5,10 @@ import os
 from pathlib import Path
 
 # from google import genai
-genai.configure(api_key="AIzaSyBH46Ypkfr_nO7hQJlJq2ZpAZuMZHWtFlM")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.0-flash",
 )
 max_tokens = 1024
 print("Gemini model initialized successfully")
