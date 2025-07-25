@@ -57,6 +57,7 @@ We also provide the zip files of with all datasets at this links: [MPDocVQA.zip]
 
 *we are currently developing an online leaderboard to easily keep track of all models performance
 
+### Info
 Gemini 2.5 Flash has been used as judge on all verification steps
 
 After each model is tested, it is postprocess to standardize results.
