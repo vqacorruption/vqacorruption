@@ -77,6 +77,7 @@ An example on how to run each step is provided in the notebook [example.ipynb](e
 
 ## Future Works
 We plan to test more models with different sizes, both open source and private.
+Develop a website with all model for easy comparison
 
 ## License
 This project is licensed under the **CC BY-NC 4.0**. See [LICENSE](LICENSE) for more information.
