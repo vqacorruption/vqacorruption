@@ -54,7 +54,7 @@ We also provide the zip files of with all datasets at this links: [MPDocVQA.zip]
 | UDOP              | VLM  | 742M | MIT          |  [link](https://huggingface.co/microsoft/udop-large) |
 | LayoutLMv3        | VLM  | 125M | CC-BY-NC-SA-4.0      |  [link](https://huggingface.co/rubentito/layoutlmv3-base-mpdocvqa) |
 | BLIP              | VLM  | 385M | BSD-3-Clause |  [link](https://huggingface.co/Salesforce/blip-vqa-base) |
-* we are currently developing an online leaderboard to easily keep track of all models performance
+*we are currently developing an online leaderboard to easily keep track of all models performance
 
 Gemini 2.5 Flash has been used as judge on all verification steps
 
