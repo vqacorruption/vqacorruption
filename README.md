@@ -31,23 +31,32 @@ We also provide the zip files of with all datasets at this links: [MPDocVQA.zip]
 
 
 ## Models
+### Current
 |                   | Type | Size | License      | Link |
 |-------------------|:----:|:----:|:------------:|:----:|
 | QWEN 2.5-VL       | VLLM | 7B   | Apache 2.0   |  [link](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) |
-| InternVL 2.5      | VLLM | 8B   | MIT          |  [link](https://huggingface.co/OpenGVLab/InternVL2_5-8B) |
-| Phi 3.5 Vision    | VLLM | 4B   | MIT          |  [link](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) |
+| QWEN 2.5-VL       | VLLM | 72B  | Apache 2.0   |  [link](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct) |
+| InternVL 3        | VLLM | 9B   | MIT          |  [link](https://huggingface.co/OpenGVLab/InternVL3-9B) |
+| InternVL 3        | VLLM | 78B  | MIT          |  [link](https://huggingface.co/OpenGVLab/InternVL3-78B) |
+| Phi 4 Multimodal  | VLLM | 5B   | MIT          |  [link](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) |
 | Molmo             | VLLM | 7B   | Apache 2.0   |  [link](https://huggingface.co/allenai/Molmo-7B-D-0924) |
 | Ovis              | VLLM | 9B   | Apache 2.0   |  [link](https://huggingface.co/AIDC-AI/Ovis1.6-Gemma2-9B) |
-| DocOwl2           | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/mPLUG/DocOwl2) |
 | Gemma 3           | VLLM | 27B  | Gemma        |  [link](https://huggingface.co/google/gemma-3-27b-it) |
-| Llama 3.2         | VLLM | 11B   | Llama3.2   |  [link](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) |
-| Llava 1.6         | VLLM | 34B   | Apache 2.0   |  [link](https://huggingface.co/liuhaotian/llava-v1.6-34b) |
+| Llama 3.2         | VLLM | 11B  | Llama3.2     |  [link](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) |
+| Llava 1.6         | VLLM | 34B  | Apache 2.0   |  [link](https://huggingface.co/liuhaotian/llava-v1.6-34b) |
+
+### Discontinued*
+|                   | Type | Size | License      | Link |
+|-------------------|:----:|:----:|:------------:|:----:|
+| InternVL 2.5      | VLLM | 8B   | MIT          |  [link](https://huggingface.co/OpenGVLab/InternVL2_5-8B) |
+| Phi 3.5 Vision    | VLLM | 4B   | MIT          |  [link](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) |
+| DocOwl2           | VLLM | 8B   | Apache 2.0   |  [link](https://huggingface.co/mPLUG/DocOwl2) |
 | UDOP              | VLM  | 742M | MIT          |  [link](https://huggingface.co/microsoft/udop-large) |
 | LayoutLMv3        | VLM  | 125M | CC-BY-NC-SA-4.0      |  [link](https://huggingface.co/rubentito/layoutlmv3-base-mpdocvqa) |
 | BLIP              | VLM  | 385M | BSD-3-Clause |  [link](https://huggingface.co/Salesforce/blip-vqa-base) |
+* we are currently developing an online leaderboard to easily keep track of all models performance
 
-
-Gemini 2.0 Flash has been used as judge on all verification steps
+Gemini 2.5 Flash has been used as judge on all verification steps
 
 After each model is tested, it is postprocess to standardize results.
 The final output file has the same verified dataset elements extended with models answers.
