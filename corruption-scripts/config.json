@@ -37,7 +37,7 @@
     "verification_input_file": "/corruption-scripts/results/MPDocVQA_unanswerable_corrupted_questions_cleaned.json",
     "verification_output_file": "/corruption-scripts/results/MPDocVQA_unanswerable_corrupted_questions_verified.json",
     "verification_percentage": 100,
-    "model_name": "gemini-2.0-flash",
+    "model_name": "gemini-2.5-flash",
     "log_file": "/terminal_output.json"
   }
 }
