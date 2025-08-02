@@ -70,7 +70,7 @@ In detail it has a list with:
 ## Execution
 
 To run the experiments, install the dependencies in the `requirements.txt` file.<br />
-Currently, the experiments have been executed with `transformers==4.49.0.dev0`. Due to compatibility issue, we suggest to downgrade to `transformers==4.48.2` when testing Phi 3.5.<br />
+Currently, the experiments have been executed with `transformers==4.49.0.dev0`. 
 For Llama3.2 and Llava1.6 we deploy the models using the [Ollama](https://ollama.com/) library
 
 An example on how to run each step is provided in the notebook [example.ipynb](example.ipynb)
