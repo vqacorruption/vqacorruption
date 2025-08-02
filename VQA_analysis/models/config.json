@@ -5,7 +5,7 @@
             "name": "gemini",
             "project_id": "vqacorruption",
             "region": "us-central1",
-            "model_name": "gemini-1.5-flash",
+            "model_name": "gemini-2.5-flash",
             "max_tokens": 1024,
             "batch_size": 1,
             "api_key": ""
