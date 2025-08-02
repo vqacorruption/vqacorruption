@@ -1,10 +1,10 @@
 <div align="center">
   
-## Evaluating Visual LLMs Resilience to Unanswerable Questions on Visually Rich Documents
+## Benchmarking Visual LLMs Resilience to Unanswerable Questions on Visually Rich Documents
 
 ### Under Review
 </div>
-<!-- A comprehensive evaluation system for testing Visual Large Language Models' (VLLMs) robustness against corrupted questions in document understanding tasks. The framework introduces systematic corruptions at NLP, document element, and layout levels, while providing tools for corruption generation, unanswerability verification, and performance assessment. Validated through experiments on 2 benchmarks with 11 VLLMs/LMs, it offers specialized metrics for measuring No Answer precision, document element impact, and answer correlations. The project specifically addresses challenges in multi-page document processing, including handling of multimodal elements and varied layouts. -->
+<!-- A comprehensive evaluation system for testing Visual Large Language Models' (VLLMs) robustness against corrupted questions in document understanding tasks. The framework introduces systematic corruptions at NLP, document element, and layout levels, while providing tools for corruption generation, unanswerability verification, and performance assessment. Validated through experiments on 2 benchmarks with 12 VLLMs, it offers specialized metrics for measuring No Answer precision, document element impact, and answer correlations. The project specifically addresses challenges in multi-page document processing, including handling of multimodal elements and varied layouts. -->
 
 ## Datasets
 
